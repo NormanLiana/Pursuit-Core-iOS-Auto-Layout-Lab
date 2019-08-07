@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Auto_Layout_Lab_Xcode_Project" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jpP-5i-LxU">
+                                <rect key="frame" x="0.0" y="462" width="414" height="400"/>
+                                <color key="backgroundColor" red="0.78070789490000003" green="0.77404269370000001" blue="0.56971413390000003" alpha="0.8551441461" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="400" id="WMt-Sb-33J"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yVG-KU-txU">
+                                <rect key="frame" x="0.0" y="44" width="414" height="400"/>
+                                <color key="backgroundColor" red="0.71904984130000005" green="0.4395238159" blue="0.39901458909999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="400" id="N9f-LP-Qah"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="yVG-KU-txU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="6Qo-Yu-rSu"/>
+                            <constraint firstItem="jpP-5i-LxU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="BX5-RO-rZl"/>
+                            <constraint firstItem="yVG-KU-txU" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Bn9-M9-4Pg"/>
+                            <constraint firstItem="jpP-5i-LxU" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="P36-HB-p3N"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="jpP-5i-LxU" secondAttribute="trailing" id="R5S-9d-fnN"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="yVG-KU-txU" secondAttribute="trailing" id="cu8-x2-wiD"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="jpP-5i-LxU" secondAttribute="bottom" id="fbS-gG-9gw"/>
+                            <constraint firstItem="yVG-KU-txU" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="hCH-Mi-OTm"/>
+                            <constraint firstItem="yVG-KU-txU" firstAttribute="height" secondItem="jpP-5i-LxU" secondAttribute="height" id="mjM-sh-Hl6"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
